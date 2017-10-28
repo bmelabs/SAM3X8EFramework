@@ -1,0 +1,9 @@
+#define RS RE0
+#define RWn RE1
+#define E RE2
+#define LCDDATA PORTD
+#define LCDCOMMAND PORTD
+#define RS_COMMAND 0
+#define RS_DATA 1
+#define WRITE 0
+#define READ 1
