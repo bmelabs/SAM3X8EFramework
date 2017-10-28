@@ -1,0 +1,13 @@
+extern void portInit(void);
+extern void LCDInit(void);
+extern void delay(unsigned int);
+extern void delay1ms(void);
+extern void initCommand(char);
+extern void command(char);
+extern void writeChar(char);
+extern void writeString(char *);
+extern void waitForNotBusy(void);
+extern void clearDisplay(void);
+extern void returnHome(void);
+extern void setDisplayLine(unsigned char, unsigned char);
+void displayMessage(unsigned char );
